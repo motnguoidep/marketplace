@@ -6,12 +6,9 @@ import Header from "./views/Header.vue";
 import Footer from "./views/Footer.vue";
 import '../src/assets/css/main.css';
 
-// import "./assets/css/main.css";
-// import "./assets/css/plugins/animate.min.css";
 import './assets/css/plugins/animate.css';
 import './assets/css/plugins/animate.min.css';
 
- 
 </script>
 
 <template>
@@ -33,7 +30,7 @@ import './assets/css/plugins/animate.min.css';
     <link type = "model" rel="stylesheet" href="../src/assets/css/main.css" />
     <!-- <link type = "model" rel="stylesheet" href="../src/assets/css/main.css.map"> -->
 
-  </head>
+</head>
 
   <Header />
   <RouterView></RouterView>

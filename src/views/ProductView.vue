@@ -5,7 +5,9 @@
       <div class="mobile-header-wrapper-inner">
         <div class="mobile-header-top">
           <div class="mobile-header-logo">
-            <a href="index.html"><img src="assets/imgs/theme/logo.svg" alt="logo" /></a>
+            <a href="index.html"
+              ><img src="../assets/imgs/theme/logo.svg" alt="logo"
+            /></a>
           </div>
           <div class="mobile-menu-close close-style-wrap close-style-position-inherit">
             <button class="close-style search-close">
@@ -248,11 +250,27 @@
           </div>
           <div class="mobile-social-icon mb-50">
             <h6 class="mb-15">Follow Us</h6>
-            <a href="#"><img src="assets/imgs/theme/icons/icon-facebook-white.svg" alt="" /></a>
-            <a href="#"><img src="assets/imgs/theme/icons/icon-twitter-white.svg" alt="" /></a>
-            <a href="#"><img src="assets/imgs/theme/icons/icon-instagram-white.svg" alt="" /></a>
-            <a href="#"><img src="assets/imgs/theme/icons/icon-pinterest-white.svg" alt="" /></a>
-            <a href="#"><img src="assets/imgs/theme/icons/icon-youtube-white.svg" alt="" /></a>
+            <a href="#"
+              ><img
+                src="../assets/imgs/theme/icons/icon-facebook-white.svg"
+                alt=""
+            /></a>
+            <a href="#"
+              ><img src="../assets/imgs/theme/icons/icon-twitter-white.svg" alt=""
+            /></a>
+            <a href="#"
+              ><img
+                src="../assets/imgs/theme/icons/icon-instagram-white.svg"
+                alt=""
+            /></a>
+            <a href="#"
+              ><img
+                src="../assets/imgs/theme/icons/icon-pinterest-white.svg"
+                alt=""
+            /></a>
+            <a href="#"
+              ><img src="../assets/imgs/theme/icons/icon-youtube-white.svg" alt=""
+            /></a>
           </div>
           <div class="site-copyright">
             Copyright 2022 © Nest. All rights reserved. Powered by AliThemes.
@@ -281,7 +299,7 @@
                   <div class="detail-gallery">
                     <!-- MAIN SLIDES -->
                     <div class="product-image-slider">
-                      <div v-for="(one, id) in products" :key="one.id">
+                      <div v-for="(one) in products" :key="one.id">
                         <img :src="one.image" alt="" />
                       </div>
                     </div>
@@ -608,7 +626,7 @@
                     </div>
                     <div class="tab-pane fade" id="Vendor-info">
                       <div class="vendor-logo d-flex mb-30">
-                        <img src="assets/imgs/vendor/vendor-18.svg" alt="" />
+                        <img src="../assets/imgs/vendor/vendor-18.svg" alt="" />
                         <div class="vendor-name ml-15">
                           <h6>
                             <a href="vendor-details-2.html">Noodles Co.</a>
@@ -624,13 +642,21 @@
                       </div>
                       <ul class="contact-infor mb-50">
                         <li>
-                          <img src="assets/imgs/theme/icons/icon-location.svg" alt="" /><strong>Address: </strong>
-                          <span>5171 W Campbell Ave undefined Kent, Utah 53127
-                            United States</span>
+                          <img
+                            src="../assets/imgs/theme/icons/icon-location.svg"
+                            alt=""
+                          /><strong>Address: </strong>
+                          <span
+                            >5171 W Campbell Ave undefined Kent, Utah 53127
+                            United States</span
+                          >
                         </li>
                         <li>
-                          <img src="assets/imgs/theme/icons/icon-contact.svg" alt="" /><strong>Contact
-                            Seller:</strong><span>(+91) - 540-025-553</span>
+                          <img
+                            src="../assets/imgs/theme/icons/icon-contact.svg"
+                            alt=""
+                          /><strong>Contact Seller:</strong
+                          ><span>(+91) - 540-025-553</span>
                         </li>
                       </ul>
                       <div class="d-flex mb-55">
@@ -668,8 +694,13 @@
                               <div class="single-comment justify-content-between d-flex mb-30">
                                 <div class="user justify-content-between d-flex">
                                   <div class="thumb text-center">
-                                    <img src="assets/imgs/blog/author-2.png" alt="" />
-                                    <a href="#" class="font-heading text-brand">Sienna</a>
+                                    <img
+                                      src="../assets/imgs/blog/author-2.png"
+                                      alt=""
+                                    />
+                                    <a href="#" class="font-heading text-brand"
+                                      >Sienna</a
+                                    >
                                   </div>
                                   <div class="desc">
                                     <div class="d-flex justify-content-between mb-10">
@@ -697,8 +728,13 @@
                               <div class="single-comment justify-content-between d-flex mb-30 ml-30">
                                 <div class="user justify-content-between d-flex">
                                   <div class="thumb text-center">
-                                    <img src="assets/imgs/blog/author-3.png" alt="" />
-                                    <a href="#" class="font-heading text-brand">Brenna</a>
+                                    <img
+                                      src="../assets/imgs/blog/author-3.png"
+                                      alt=""
+                                    />
+                                    <a href="#" class="font-heading text-brand"
+                                      >Brenna</a
+                                    >
                                   </div>
                                   <div class="desc">
                                     <div class="d-flex justify-content-between mb-10">
@@ -726,8 +762,13 @@
                               <div class="single-comment justify-content-between d-flex">
                                 <div class="user justify-content-between d-flex">
                                   <div class="thumb text-center">
-                                    <img src="assets/imgs/blog/author-4.png" alt="" />
-                                    <a href="#" class="font-heading text-brand">Gemma</a>
+                                    <img
+                                      src="../assets/imgs/blog/author-4.png"
+                                      alt=""
+                                    />
+                                    <a href="#" class="font-heading text-brand"
+                                      >Gemma</a
+                                    >
                                   </div>
                                   <div class="desc">
                                     <div class="d-flex justify-content-between mb-10">
@@ -857,8 +898,16 @@
                         <div class="product-img-action-wrap">
                           <div class="product-img product-img-zoom">
                             <a href="shop-product-right.html" tabindex="0">
-                              <img class="default-img" src="assets/imgs/shop/product-2-1.jpg" alt="" />
-                              <img class="hover-img" src="assets/imgs/shop/product-2-2.jpg" alt="" />
+                              <img
+                                class="default-img"
+                                src="../assets/imgs/shop/product-2-1.jpg"
+                                alt=""
+                              />
+                              <img
+                                class="hover-img"
+                                src="../assets/imgs/shop/product-2-2.jpg"
+                                alt=""
+                              />
                             </a>
                           </div>
                           <div class="product-action-1">
@@ -892,8 +941,16 @@
                         <div class="product-img-action-wrap">
                           <div class="product-img product-img-zoom">
                             <a href="shop-product-right.html" tabindex="0">
-                              <img class="default-img" src="assets/imgs/shop/product-3-1.jpg" alt="" />
-                              <img class="hover-img" src="assets/imgs/shop/product-4-2.jpg" alt="" />
+                              <img
+                                class="default-img"
+                                src="../assets/imgs/shop/product-3-1.jpg"
+                                alt=""
+                              />
+                              <img
+                                class="hover-img"
+                                src="../assets/imgs/shop/product-4-2.jpg"
+                                alt=""
+                              />
                             </a>
                           </div>
                           <div class="product-action-1">
@@ -927,8 +984,16 @@
                         <div class="product-img-action-wrap">
                           <div class="product-img product-img-zoom">
                             <a href="shop-product-right.html" tabindex="0">
-                              <img class="default-img" src="assets/imgs/shop/product-4-1.jpg" alt="" />
-                              <img class="hover-img" src="assets/imgs/shop/product-4-2.jpg" alt="" />
+                              <img
+                                class="default-img"
+                                src="../assets/imgs/shop/product-4-1.jpg"
+                                alt=""
+                              />
+                              <img
+                                class="hover-img"
+                                src="../assets/imgs/shop/product-4-2.jpg"
+                                alt=""
+                              />
                             </a>
                           </div>
                           <div class="product-action-1">
@@ -962,8 +1027,16 @@
                         <div class="product-img-action-wrap">
                           <div class="product-img product-img-zoom">
                             <a href="shop-product-right.html" tabindex="0">
-                              <img class="default-img" src="assets/imgs/shop/product-5-1.jpg" alt="" />
-                              <img class="hover-img" src="assets/imgs/shop/product-3-2.jpg" alt="" />
+                              <img
+                                class="default-img"
+                                src="../assets/imgs/shop/product-5-1.jpg"
+                                alt=""
+                              />
+                              <img
+                                class="hover-img"
+                                src="../assets/imgs/shop/product-3-2.jpg"
+                                alt=""
+                              />
                             </a>
                           </div>
                           <div class="product-action-1">
