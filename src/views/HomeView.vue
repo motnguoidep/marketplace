@@ -1,4 +1,5 @@
 <template>
+
     <!-- slider -->
     <section class="home-slider position-relative mb-30">
             <div class="container">
@@ -99,10 +100,9 @@
                                 <div class="product-cart-wrap mb-30 wow animate__animated animate__fadeIn" data-wow-delay=".1s">
                                     <div class="product-img-action-wrap">
                                         <div class="product-img product-img-zoom">
-                                            <a href="shop-product-right.html">
-                                                <img class="default-img" :src="one.image"  />
-                                                <img class="hover-img" src="../assets/imgs/shop/product-1-2.jpg" alt="" />
-                                            </a>
+                                            <router-link :to="`/product/${one.id}`">
+                                                <img class="default-img" :src="one.image" />
+                                            </router-link>
                                         </div>
                                         <div class="product-action-1">
                                             <a aria-label="Add To Wishlist" class="action-btn" href="shop-wishlist.html"><i class="fi-rs-heart"></i></a>
@@ -2814,7 +2814,7 @@
 
 <script lang="ts">
 import { defineComponent } from "vue";
-import { productStore, type Product } from "@/stores/product";
+import { productStore } from "@/stores/product";
 import { mapActions, mapState, mapWritableState } from "pinia";
 export default defineComponent({
     computed: {
