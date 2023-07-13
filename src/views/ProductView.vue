@@ -5,9 +5,7 @@
       <div class="mobile-header-wrapper-inner">
         <div class="mobile-header-top">
           <div class="mobile-header-logo">
-            <a href="index.html"
-              ><img src="../assets/imgs/theme/logo.svg" alt="logo"
-            /></a>
+            <a href="index.html"><img src="../assets/imgs/theme/logo.svg" alt="logo" /></a>
           </div>
           <div class="mobile-menu-close close-style-wrap close-style-position-inherit">
             <button class="close-style search-close">
@@ -250,27 +248,11 @@
           </div>
           <div class="mobile-social-icon mb-50">
             <h6 class="mb-15">Follow Us</h6>
-            <a href="#"
-              ><img
-                src="../assets/imgs/theme/icons/icon-facebook-white.svg"
-                alt=""
-            /></a>
-            <a href="#"
-              ><img src="../assets/imgs/theme/icons/icon-twitter-white.svg" alt=""
-            /></a>
-            <a href="#"
-              ><img
-                src="../assets/imgs/theme/icons/icon-instagram-white.svg"
-                alt=""
-            /></a>
-            <a href="#"
-              ><img
-                src="../assets/imgs/theme/icons/icon-pinterest-white.svg"
-                alt=""
-            /></a>
-            <a href="#"
-              ><img src="../assets/imgs/theme/icons/icon-youtube-white.svg" alt=""
-            /></a>
+            <a href="#"><img src="../assets/imgs/theme/icons/icon-facebook-white.svg" alt="" /></a>
+            <a href="#"><img src="../assets/imgs/theme/icons/icon-twitter-white.svg" alt="" /></a>
+            <a href="#"><img src="../assets/imgs/theme/icons/icon-instagram-white.svg" alt="" /></a>
+            <a href="#"><img src="../assets/imgs/theme/icons/icon-pinterest-white.svg" alt="" /></a>
+            <a href="#"><img src="../assets/imgs/theme/icons/icon-youtube-white.svg" alt="" /></a>
           </div>
           <div class="site-copyright">
             Copyright 2022 © Nest. All rights reserved. Powered by AliThemes.
@@ -299,29 +281,30 @@
                   <div class="detail-gallery">
                     <!-- MAIN SLIDES -->
                     <div class="product-image-slider">
-                      <div v-for="(one) in products" :key="one.id">
+                      <!-- <div v-for="(one) in products" :key="one.id">
                         <img :src="one.image" alt="" />
-                      </div>
+                      </div> -->
+                      <img :src="product.image" />
                     </div>
                   </div>
                   <!-- End Gallery -->
                 </div>
                 <div class="col-md-6 col-sm-12 col-xs-12">
-                  <div class="detail-info pr-30 pl-30">
+                  <!-- <div class="detail-info pr-30 pl-30">
                     <div class="product-img">
                       <img :src="product.image" />
                     </div>
                     <div class="product-title">{{ product?.title }}</div>
                     <div class="product-price">{{ product?.price }}</div>
                     <div class="product-description">{{ product?.description }}</div>
-                    <!-- <div class="product-rating">{{ product?.rating?.rate }} ({{ product?.rating?.count }})</div> -->
                     <div class="product-rating-count">Total vote : {{ product?.rating?.count }}</div>
                     <div class="product-ratingggg">Rating : {{ product?.rating?.rate }}</div>
-                  </div>
-                  <!-- <div class="detail-info pr-30 pl-30">
+                  </div> -->
+
+                  <div class="detail-info pr-30 pl-30">
                     <span class="stock-status out-stock"> Sale Off </span>
                     <h2 class="title-detail">
-                      Seeds of Change Organic Quinoa, Brown
+                      {{ product?.title }}
                     </h2>
                     <div class="product-detail-rating">
                       <div class="product-rate-cover text-end">
@@ -329,27 +312,21 @@
                           <div class="product-rating" style="width: 90%"></div>
                         </div>
                         <span class="font-small ml-5 text-muted">
-                          (32 reviews)</span
-                        >
+                          ({{ product?.rating?.count }} reviews)</span>
                       </div>
                     </div>
                     <div class="clearfix product-price-cover">
                       <div class="product-price primary-color float-left">
-                        <span class="current-price text-brand">$38</span>
+                        <span class="current-price text-brand">{{ product?.price }}$</span>
                         <span>
-                          <span class="save-price font-md color3 ml-15"
-                            >26% Off</span
-                          >
-                          <span class="old-price font-md ml-15">$52</span>
+                          <!-- <span class="save-price font-md color3 ml-15">26% Off</span>
+                          <span class="old-price font-md ml-15">$52</span> -->
                         </span>
                       </div>
                     </div>
                     <div class="short-desc mb-30">
                       <p class="font-lg">
-                        Lorem ipsum dolor, sit amet consectetur adipisicing
-                        elit. Aliquam rem officia, corrupti reiciendis minima
-                        nisi modi, quasi, odio minus dolore impedit fuga eum
-                        eligendi.
+                        {{ product?.description }}
                       </p>
                     </div>
                     <div class="attr-detail attr-size mb-30">
@@ -364,40 +341,18 @@
                     </div>
                     <div class="detail-extralink mb-50">
                       <div class="detail-qty border radius">
-                        <a href="#" class="qty-down"
-                          ><i class="fi-rs-angle-small-down"></i
-                        ></a>
-                        <input
-                          type="text"
-                          name="quantity"
-                          class="qty-val"
-                          value="1"
-                          min="1"
-                        />
-                        <a href="#" class="qty-up"
-                          ><i class="fi-rs-angle-small-up"></i
-                        ></a>
+                        <a href="#" class="qty-down"><i class="fi-rs-angle-small-down"></i></a>
+                        <input type="text" name="quantity" class="qty-val" value="1" min="1" />
+                        <a href="#" class="qty-up"><i class="fi-rs-angle-small-up"></i></a>
                       </div>
                       <div class="product-extra-link2">
-                        <button
-                          @click="checkId()"
-                          type="submit"
-                          class="button button-add-to-cart"
-                        >
+                        <button @click="checkId()" type="submit" class="button button-add-to-cart">
                           <i class="fi-rs-shopping-cart"></i>Add to cart
                         </button>
-                        <a
-                          aria-label="Add To Wishlist"
-                          class="action-btn hover-up"
-                          href="shop-wishlist.html"
-                          ><i class="fi-rs-heart"></i
-                        ></a>
-                        <a
-                          aria-label="Compare"
-                          class="action-btn hover-up"
-                          href="shop-compare.html"
-                          ><i class="fi-rs-shuffle"></i
-                        ></a>
+                        <a aria-label="Add To Wishlist" class="action-btn hover-up" href="shop-wishlist.html"><i
+                            class="fi-rs-heart"></i></a>
+                        <a aria-label="Compare" class="action-btn hover-up" href="shop-compare.html"><i
+                            class="fi-rs-shuffle"></i></a>
                       </div>
                     </div>
                     <div class="font-xs">
@@ -418,13 +373,11 @@
                           <a href="#" rel="tag">Brown</a>
                         </li>
                         <li>
-                          Stock:<span class="in-stock text-brand ml-5"
-                            >8 Items In Stock</span
-                          >
+                          Stock:<span class="in-stock text-brand ml-5">8 Items In Stock</span>
                         </li>
                       </ul>
                     </div>
-                  </div> -->
+                  </div>
                   <!-- Detail Info -->
                 </div>
               </div>
@@ -642,21 +595,13 @@
                       </div>
                       <ul class="contact-infor mb-50">
                         <li>
-                          <img
-                            src="../assets/imgs/theme/icons/icon-location.svg"
-                            alt=""
-                          /><strong>Address: </strong>
-                          <span
-                            >5171 W Campbell Ave undefined Kent, Utah 53127
-                            United States</span
-                          >
+                          <img src="../assets/imgs/theme/icons/icon-location.svg" alt="" /><strong>Address: </strong>
+                          <span>5171 W Campbell Ave undefined Kent, Utah 53127
+                            United States</span>
                         </li>
                         <li>
-                          <img
-                            src="../assets/imgs/theme/icons/icon-contact.svg"
-                            alt=""
-                          /><strong>Contact Seller:</strong
-                          ><span>(+91) - 540-025-553</span>
+                          <img src="../assets/imgs/theme/icons/icon-contact.svg" alt="" /><strong>Contact
+                            Seller:</strong><span>(+91) - 540-025-553</span>
                         </li>
                       </ul>
                       <div class="d-flex mb-55">
@@ -694,13 +639,8 @@
                               <div class="single-comment justify-content-between d-flex mb-30">
                                 <div class="user justify-content-between d-flex">
                                   <div class="thumb text-center">
-                                    <img
-                                      src="../assets/imgs/blog/author-2.png"
-                                      alt=""
-                                    />
-                                    <a href="#" class="font-heading text-brand"
-                                      >Sienna</a
-                                    >
+                                    <img src="../assets/imgs/blog/author-2.png" alt="" />
+                                    <a href="#" class="font-heading text-brand">Sienna</a>
                                   </div>
                                   <div class="desc">
                                     <div class="d-flex justify-content-between mb-10">
@@ -728,13 +668,8 @@
                               <div class="single-comment justify-content-between d-flex mb-30 ml-30">
                                 <div class="user justify-content-between d-flex">
                                   <div class="thumb text-center">
-                                    <img
-                                      src="../assets/imgs/blog/author-3.png"
-                                      alt=""
-                                    />
-                                    <a href="#" class="font-heading text-brand"
-                                      >Brenna</a
-                                    >
+                                    <img src="../assets/imgs/blog/author-3.png" alt="" />
+                                    <a href="#" class="font-heading text-brand">Brenna</a>
                                   </div>
                                   <div class="desc">
                                     <div class="d-flex justify-content-between mb-10">
@@ -762,13 +697,8 @@
                               <div class="single-comment justify-content-between d-flex">
                                 <div class="user justify-content-between d-flex">
                                   <div class="thumb text-center">
-                                    <img
-                                      src="../assets/imgs/blog/author-4.png"
-                                      alt=""
-                                    />
-                                    <a href="#" class="font-heading text-brand"
-                                      >Gemma</a
-                                    >
+                                    <img src="../assets/imgs/blog/author-4.png" alt="" />
+                                    <a href="#" class="font-heading text-brand">Gemma</a>
                                   </div>
                                   <div class="desc">
                                     <div class="d-flex justify-content-between mb-10">
@@ -898,16 +828,8 @@
                         <div class="product-img-action-wrap">
                           <div class="product-img product-img-zoom">
                             <a href="shop-product-right.html" tabindex="0">
-                              <img
-                                class="default-img"
-                                src="../assets/imgs/shop/product-2-1.jpg"
-                                alt=""
-                              />
-                              <img
-                                class="hover-img"
-                                src="../assets/imgs/shop/product-2-2.jpg"
-                                alt=""
-                              />
+                              <img class="default-img" src="../assets/imgs/shop/product-2-1.jpg" alt="" />
+                              <img class="hover-img" src="../assets/imgs/shop/product-2-2.jpg" alt="" />
                             </a>
                           </div>
                           <div class="product-action-1">
@@ -941,16 +863,8 @@
                         <div class="product-img-action-wrap">
                           <div class="product-img product-img-zoom">
                             <a href="shop-product-right.html" tabindex="0">
-                              <img
-                                class="default-img"
-                                src="../assets/imgs/shop/product-3-1.jpg"
-                                alt=""
-                              />
-                              <img
-                                class="hover-img"
-                                src="../assets/imgs/shop/product-4-2.jpg"
-                                alt=""
-                              />
+                              <img class="default-img" src="../assets/imgs/shop/product-3-1.jpg" alt="" />
+                              <img class="hover-img" src="../assets/imgs/shop/product-4-2.jpg" alt="" />
                             </a>
                           </div>
                           <div class="product-action-1">
@@ -984,16 +898,8 @@
                         <div class="product-img-action-wrap">
                           <div class="product-img product-img-zoom">
                             <a href="shop-product-right.html" tabindex="0">
-                              <img
-                                class="default-img"
-                                src="../assets/imgs/shop/product-4-1.jpg"
-                                alt=""
-                              />
-                              <img
-                                class="hover-img"
-                                src="../assets/imgs/shop/product-4-2.jpg"
-                                alt=""
-                              />
+                              <img class="default-img" src="../assets/imgs/shop/product-4-1.jpg" alt="" />
+                              <img class="hover-img" src="../assets/imgs/shop/product-4-2.jpg" alt="" />
                             </a>
                           </div>
                           <div class="product-action-1">
@@ -1027,16 +933,8 @@
                         <div class="product-img-action-wrap">
                           <div class="product-img product-img-zoom">
                             <a href="shop-product-right.html" tabindex="0">
-                              <img
-                                class="default-img"
-                                src="../assets/imgs/shop/product-5-1.jpg"
-                                alt=""
-                              />
-                              <img
-                                class="hover-img"
-                                src="../assets/imgs/shop/product-3-2.jpg"
-                                alt=""
-                              />
+                              <img class="default-img" src="../assets/imgs/shop/product-5-1.jpg" alt="" />
+                              <img class="hover-img" src="../assets/imgs/shop/product-3-2.jpg" alt="" />
                             </a>
                           </div>
                           <div class="product-action-1">
