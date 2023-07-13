@@ -46,6 +46,11 @@ export const productStore = defineStore('productStore', {
       .get(`https://fakestoreapi.com/products`)
       .then((response) => {this.products = response.data})
     },
+    async getDetailProducts(id: number){
+      await axios
+      .get(`https://fakestoreapi.com/products/${id}`)
+      .then((response) => {this.products = response?.data})
+    },
     async create(one:Product) {
           console.log(one);
         await axios
