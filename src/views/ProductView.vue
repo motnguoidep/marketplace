@@ -5,9 +5,13 @@
       <div class="mobile-header-wrapper-inner">
         <div class="mobile-header-top">
           <div class="mobile-header-logo">
-            <a href="index.html"><img src="../assets/imgs/theme/logo.svg" alt="logo" /></a>
+            <a href="index.html"
+              ><img src="../assets/imgs/theme/logo.svg" alt="logo"
+            /></a>
           </div>
-          <div class="mobile-menu-close close-style-wrap close-style-position-inherit">
+          <div
+            class="mobile-menu-close close-style-wrap close-style-position-inherit"
+          >
             <button class="close-style search-close">
               <i class="icon-top"></i>
               <i class="icon-bottom"></i>
@@ -40,13 +44,17 @@
                   <a href="shop-grid-right.html">shop</a>
                   <ul class="dropdown">
                     <li>
-                      <a href="shop-grid-right.html">Shop Grid – Right Sidebar</a>
+                      <a href="shop-grid-right.html"
+                        >Shop Grid – Right Sidebar</a
+                      >
                     </li>
                     <li>
                       <a href="shop-grid-left.html">Shop Grid – Left Sidebar</a>
                     </li>
                     <li>
-                      <a href="shop-list-right.html">Shop List – Right Sidebar</a>
+                      <a href="shop-list-right.html"
+                        >Shop List – Right Sidebar</a
+                      >
                     </li>
                     <li>
                       <a href="shop-list-left.html">Shop List – Left Sidebar</a>
@@ -56,16 +64,24 @@
                       <a href="#">Single Product</a>
                       <ul class="dropdown">
                         <li>
-                          <a href="shop-product-right.html">Product – Right Sidebar</a>
+                          <a href="shop-product-right.html"
+                            >Product – Right Sidebar</a
+                          >
                         </li>
                         <li>
-                          <a href="shop-product-left.html">Product – Left Sidebar</a>
+                          <a href="shop-product-left.html"
+                            >Product – Left Sidebar</a
+                          >
                         </li>
                         <li>
-                          <a href="shop-product-full.html">Product – No sidebar</a>
+                          <a href="shop-product-full.html"
+                            >Product – No sidebar</a
+                          >
                         </li>
                         <li>
-                          <a href="shop-product-vendor.html">Product – Vendor Infor</a>
+                          <a href="shop-product-vendor.html"
+                            >Product – Vendor Infor</a
+                          >
                         </li>
                       </ul>
                     </li>
@@ -127,7 +143,9 @@
                           <a href="shop-product-right.html">Blouses & Shirts</a>
                         </li>
                         <li>
-                          <a href="shop-product-right.html">Hoodies & Sweatshirts</a>
+                          <a href="shop-product-right.html"
+                            >Hoodies & Sweatshirts</a
+                          >
                         </li>
                         <li>
                           <a href="shop-product-right.html">Women's Sets</a>
@@ -139,7 +157,9 @@
                       <ul class="dropdown">
                         <li><a href="shop-product-right.html">Jackets</a></li>
                         <li>
-                          <a href="shop-product-right.html">Casual Faux Leather</a>
+                          <a href="shop-product-right.html"
+                            >Casual Faux Leather</a
+                          >
                         </li>
                         <li>
                           <a href="shop-product-right.html">Genuine Leather</a>
@@ -153,14 +173,20 @@
                           <a href="shop-product-right.html">Gaming Laptops</a>
                         </li>
                         <li>
-                          <a href="shop-product-right.html">Ultraslim Laptops</a>
+                          <a href="shop-product-right.html"
+                            >Ultraslim Laptops</a
+                          >
                         </li>
                         <li><a href="shop-product-right.html">Tablets</a></li>
                         <li>
-                          <a href="shop-product-right.html">Laptop Accessories</a>
+                          <a href="shop-product-right.html"
+                            >Laptop Accessories</a
+                          >
                         </li>
                         <li>
-                          <a href="shop-product-right.html">Tablet Accessories</a>
+                          <a href="shop-product-right.html"
+                            >Tablet Accessories</a
+                          >
                         </li>
                       </ul>
                     </li>
@@ -179,7 +205,9 @@
                       <a href="blog-category-big.html">Blog Category Big</a>
                     </li>
                     <li>
-                      <a href="blog-category-fullwidth.html">Blog Category Wide</a>
+                      <a href="blog-category-fullwidth.html"
+                        >Blog Category Wide</a
+                      >
                     </li>
                     <li class="menu-item-has-children">
                       <a href="#">Single Product Layout</a>
@@ -234,25 +262,48 @@
           </div>
           <div class="mobile-header-info-wrap">
             <div class="single-mobile-header-info">
-              <a href="page-contact.html"><i class="fi-rs-marker"></i> Our location
+              <a href="page-contact.html"
+                ><i class="fi-rs-marker"></i> Our location
               </a>
             </div>
             <div class="single-mobile-header-info">
-              <a href="page-login.html"><i class="fi-rs-user"></i>Log In / Sign Up
+              <a href="page-login.html"
+                ><i class="fi-rs-user"></i>Log In / Sign Up
               </a>
             </div>
             <div class="single-mobile-header-info">
-              <a href="#"><i class="fi-rs-headphones"></i>(+01) - 2345 - 6789
+              <a href="#"
+                ><i class="fi-rs-headphones"></i>(+01) - 2345 - 6789
               </a>
             </div>
           </div>
           <div class="mobile-social-icon mb-50">
             <h6 class="mb-15">Follow Us</h6>
-            <a href="#"><img src="../assets/imgs/theme/icons/icon-facebook-white.svg" alt="" /></a>
-            <a href="#"><img src="../assets/imgs/theme/icons/icon-twitter-white.svg" alt="" /></a>
-            <a href="#"><img src="../assets/imgs/theme/icons/icon-instagram-white.svg" alt="" /></a>
-            <a href="#"><img src="../assets/imgs/theme/icons/icon-pinterest-white.svg" alt="" /></a>
-            <a href="#"><img src="../assets/imgs/theme/icons/icon-youtube-white.svg" alt="" /></a>
+            <a href="#"
+              ><img
+                src="../assets/imgs/theme/icons/icon-facebook-white.svg"
+                alt=""
+            /></a>
+            <a href="#"
+              ><img
+                src="../assets/imgs/theme/icons/icon-twitter-white.svg"
+                alt=""
+            /></a>
+            <a href="#"
+              ><img
+                src="../assets/imgs/theme/icons/icon-instagram-white.svg"
+                alt=""
+            /></a>
+            <a href="#"
+              ><img
+                src="../assets/imgs/theme/icons/icon-pinterest-white.svg"
+                alt=""
+            /></a>
+            <a href="#"
+              ><img
+                src="../assets/imgs/theme/icons/icon-youtube-white.svg"
+                alt=""
+            /></a>
           </div>
           <div class="site-copyright">
             Copyright 2022 © Nest. All rights reserved. Powered by AliThemes.
@@ -265,7 +316,9 @@
       <div class="page-header breadcrumb-wrap">
         <div class="container">
           <div class="breadcrumb">
-            <a href="index.html" rel="nofollow"><i class="fi-rs-home mr-5"></i>Home</a>
+            <a href="index.html" rel="nofollow"
+              ><i class="fi-rs-home mr-5"></i>Home</a
+            >
             <span></span>
             <a href="shop-grid-right.html">Vegetables & tubers</a>
             <span></span> Seeds of Change Organic
@@ -284,7 +337,7 @@
                       <!-- <div v-for="(one) in products" :key="one.id">
                         <img :src="one.image" alt="" />
                       </div> -->
-                      <img :src="product.image" />
+                      <img :src="one.image" />
                     </div>
                   </div>
                   <!-- End Gallery -->
@@ -304,7 +357,7 @@
                   <div class="detail-info pr-30 pl-30">
                     <span class="stock-status out-stock"> Sale Off </span>
                     <h2 class="title-detail">
-                      {{ product?.title }}
+                      {{ one?.title }}
                     </h2>
                     <div class="product-detail-rating">
                       <div class="product-rate-cover text-end">
@@ -312,12 +365,15 @@
                           <div class="product-rating" style="width: 90%"></div>
                         </div>
                         <span class="font-small ml-5 text-muted">
-                          ({{ product?.rating?.count }} reviews)</span>
+                          ({{ one?.rating?.count }} reviews)</span
+                        >
                       </div>
                     </div>
                     <div class="clearfix product-price-cover">
                       <div class="product-price primary-color float-left">
-                        <span class="current-price text-brand">{{ product?.price }}$</span>
+                        <span class="current-price text-brand"
+                          >{{ one?.price }}$</span
+                        >
                         <span>
                           <!-- <span class="save-price font-md color3 ml-15">26% Off</span>
                           <span class="old-price font-md ml-15">$52</span> -->
@@ -326,7 +382,7 @@
                     </div>
                     <div class="short-desc mb-30">
                       <p class="font-lg">
-                        {{ product?.description }}
+                        {{ one?.description }}
                       </p>
                     </div>
                     <div class="attr-detail attr-size mb-30">
@@ -341,18 +397,36 @@
                     </div>
                     <div class="detail-extralink mb-50">
                       <div class="detail-qty border radius">
-                        <a href="#" class="qty-down"><i class="fi-rs-angle-small-down"></i></a>
-                        <input type="text" name="quantity" class="qty-val" value="1" min="1" />
-                        <a href="#" class="qty-up"><i class="fi-rs-angle-small-up"></i></a>
+                        <a href="#" class="qty-down"
+                          ><i class="fi-rs-angle-small-down"></i
+                        ></a>
+                        <input
+                          type="text"
+                          name="quantity"
+                          class="qty-val"
+                          value="1"
+                          min="1"
+                        />
+                        <a href="#" class="qty-up"
+                          ><i class="fi-rs-angle-small-up"></i
+                        ></a>
                       </div>
                       <div class="product-extra-link2">
-                        <button @click="checkId()" type="submit" class="button button-add-to-cart">
+                        <button type="submit" class="button button-add-to-cart">
                           <i class="fi-rs-shopping-cart"></i>Add to cart
                         </button>
-                        <a aria-label="Add To Wishlist" class="action-btn hover-up" href="shop-wishlist.html"><i
-                            class="fi-rs-heart"></i></a>
-                        <a aria-label="Compare" class="action-btn hover-up" href="shop-compare.html"><i
-                            class="fi-rs-shuffle"></i></a>
+                        <a
+                          aria-label="Add To Wishlist"
+                          class="action-btn hover-up"
+                          href="shop-wishlist.html"
+                          ><i class="fi-rs-heart"></i
+                        ></a>
+                        <a
+                          aria-label="Compare"
+                          class="action-btn hover-up"
+                          href="shop-compare.html"
+                          ><i class="fi-rs-shuffle"></i
+                        ></a>
                       </div>
                     </div>
                     <div class="font-xs">
@@ -373,7 +447,9 @@
                           <a href="#" rel="tag">Brown</a>
                         </li>
                         <li>
-                          Stock:<span class="in-stock text-brand ml-5">8 Items In Stock</span>
+                          Stock:<span class="in-stock text-brand ml-5"
+                            >8 Items In Stock</span
+                          >
                         </li>
                       </ul>
                     </div>
@@ -385,18 +461,40 @@
                 <div class="tab-style3">
                   <ul class="nav nav-tabs text-uppercase">
                     <li class="nav-item">
-                      <a class="nav-link active" id="Description-tab" data-bs-toggle="tab"
-                        href="#Description">Description</a>
+                      <a
+                        class="nav-link active"
+                        id="Description-tab"
+                        data-bs-toggle="tab"
+                        href="#Description"
+                        >Description</a
+                      >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" id="Additional-info-tab" data-bs-toggle="tab" href="#Additional-info">Additional
-                        info</a>
+                      <a
+                        class="nav-link"
+                        id="Additional-info-tab"
+                        data-bs-toggle="tab"
+                        href="#Additional-info"
+                        >Additional info</a
+                      >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" id="Vendor-info-tab" data-bs-toggle="tab" href="#Vendor-info">Vendor</a>
+                      <a
+                        class="nav-link"
+                        id="Vendor-info-tab"
+                        data-bs-toggle="tab"
+                        href="#Vendor-info"
+                        >Vendor</a
+                      >
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" id="Reviews-tab" data-bs-toggle="tab" href="#Reviews">Reviews (3)</a>
+                      <a
+                        class="nav-link"
+                        id="Reviews-tab"
+                        data-bs-toggle="tab"
+                        href="#Reviews"
+                        >Reviews (3)</a
+                      >
                     </li>
                   </ul>
                   <div class="tab-content shop_info_tab entry-main-content">
@@ -586,22 +684,34 @@
                           </h6>
                           <div class="product-rate-cover text-end">
                             <div class="product-rate d-inline-block">
-                              <div class="product-rating" style="width: 90%"></div>
+                              <div
+                                class="product-rating"
+                                style="width: 90%"
+                              ></div>
                             </div>
                             <span class="font-small ml-5 text-muted">
-                              (32 reviews)</span>
+                              (32 reviews)</span
+                            >
                           </div>
                         </div>
                       </div>
                       <ul class="contact-infor mb-50">
                         <li>
-                          <img src="../assets/imgs/theme/icons/icon-location.svg" alt="" /><strong>Address: </strong>
-                          <span>5171 W Campbell Ave undefined Kent, Utah 53127
-                            United States</span>
+                          <img
+                            src="../assets/imgs/theme/icons/icon-location.svg"
+                            alt=""
+                          /><strong>Address: </strong>
+                          <span
+                            >5171 W Campbell Ave undefined Kent, Utah 53127
+                            United States</span
+                          >
                         </li>
                         <li>
-                          <img src="../assets/imgs/theme/icons/icon-contact.svg" alt="" /><strong>Contact
-                            Seller:</strong><span>(+91) - 540-025-553</span>
+                          <img
+                            src="../assets/imgs/theme/icons/icon-contact.svg"
+                            alt=""
+                          /><strong>Contact Seller:</strong
+                          ><span>(+91) - 540-025-553</span>
                         </li>
                       </ul>
                       <div class="d-flex mb-55">
@@ -636,20 +746,35 @@
                           <div class="col-lg-8">
                             <h4 class="mb-30">Customer questions & answers</h4>
                             <div class="comment-list">
-                              <div class="single-comment justify-content-between d-flex mb-30">
-                                <div class="user justify-content-between d-flex">
+                              <div
+                                class="single-comment justify-content-between d-flex mb-30"
+                              >
+                                <div
+                                  class="user justify-content-between d-flex"
+                                >
                                   <div class="thumb text-center">
-                                    <img src="../assets/imgs/blog/author-2.png" alt="" />
-                                    <a href="#" class="font-heading text-brand">Sienna</a>
+                                    <img
+                                      src="../assets/imgs/blog/author-2.png"
+                                      alt=""
+                                    />
+                                    <a href="#" class="font-heading text-brand"
+                                      >Sienna</a
+                                    >
                                   </div>
                                   <div class="desc">
-                                    <div class="d-flex justify-content-between mb-10">
+                                    <div
+                                      class="d-flex justify-content-between mb-10"
+                                    >
                                       <div class="d-flex align-items-center">
-                                        <span class="font-xs text-muted">December 4, 2022 at 3:12 pm
+                                        <span class="font-xs text-muted"
+                                          >December 4, 2022 at 3:12 pm
                                         </span>
                                       </div>
                                       <div class="product-rate d-inline-block">
-                                        <div class="product-rating" style="width: 100%"></div>
+                                        <div
+                                          class="product-rating"
+                                          style="width: 100%"
+                                        ></div>
                                       </div>
                                     </div>
                                     <p class="mb-10">
@@ -665,20 +790,35 @@
                                   </div>
                                 </div>
                               </div>
-                              <div class="single-comment justify-content-between d-flex mb-30 ml-30">
-                                <div class="user justify-content-between d-flex">
+                              <div
+                                class="single-comment justify-content-between d-flex mb-30 ml-30"
+                              >
+                                <div
+                                  class="user justify-content-between d-flex"
+                                >
                                   <div class="thumb text-center">
-                                    <img src="../assets/imgs/blog/author-3.png" alt="" />
-                                    <a href="#" class="font-heading text-brand">Brenna</a>
+                                    <img
+                                      src="../assets/imgs/blog/author-3.png"
+                                      alt=""
+                                    />
+                                    <a href="#" class="font-heading text-brand"
+                                      >Brenna</a
+                                    >
                                   </div>
                                   <div class="desc">
-                                    <div class="d-flex justify-content-between mb-10">
+                                    <div
+                                      class="d-flex justify-content-between mb-10"
+                                    >
                                       <div class="d-flex align-items-center">
-                                        <span class="font-xs text-muted">December 4, 2022 at 3:12 pm
+                                        <span class="font-xs text-muted"
+                                          >December 4, 2022 at 3:12 pm
                                         </span>
                                       </div>
                                       <div class="product-rate d-inline-block">
-                                        <div class="product-rating" style="width: 80%"></div>
+                                        <div
+                                          class="product-rating"
+                                          style="width: 80%"
+                                        ></div>
                                       </div>
                                     </div>
                                     <p class="mb-10">
@@ -694,20 +834,35 @@
                                   </div>
                                 </div>
                               </div>
-                              <div class="single-comment justify-content-between d-flex">
-                                <div class="user justify-content-between d-flex">
+                              <div
+                                class="single-comment justify-content-between d-flex"
+                              >
+                                <div
+                                  class="user justify-content-between d-flex"
+                                >
                                   <div class="thumb text-center">
-                                    <img src="../assets/imgs/blog/author-4.png" alt="" />
-                                    <a href="#" class="font-heading text-brand">Gemma</a>
+                                    <img
+                                      src="../assets/imgs/blog/author-4.png"
+                                      alt=""
+                                    />
+                                    <a href="#" class="font-heading text-brand"
+                                      >Gemma</a
+                                    >
                                   </div>
                                   <div class="desc">
-                                    <div class="d-flex justify-content-between mb-10">
+                                    <div
+                                      class="d-flex justify-content-between mb-10"
+                                    >
                                       <div class="d-flex align-items-center">
-                                        <span class="font-xs text-muted">December 4, 2022 at 3:12 pm
+                                        <span class="font-xs text-muted"
+                                          >December 4, 2022 at 3:12 pm
                                         </span>
                                       </div>
                                       <div class="product-rate d-inline-block">
-                                        <div class="product-rating" style="width: 80%"></div>
+                                        <div
+                                          class="product-rating"
+                                          style="width: 80%"
+                                        ></div>
                                       </div>
                                     </div>
                                     <p class="mb-10">
@@ -729,46 +884,81 @@
                             <h4 class="mb-30">Customer reviews</h4>
                             <div class="d-flex mb-30">
                               <div class="product-rate d-inline-block mr-15">
-                                <div class="product-rating" style="width: 90%"></div>
+                                <div
+                                  class="product-rating"
+                                  style="width: 90%"
+                                ></div>
                               </div>
                               <h6>4.8 out of 5</h6>
                             </div>
                             <div class="progress">
                               <span>5 star</span>
-                              <div class="progress-bar" role="progressbar" style="width: 50%" aria-valuenow="50"
-                                aria-valuemin="0" aria-valuemax="100">
+                              <div
+                                class="progress-bar"
+                                role="progressbar"
+                                style="width: 50%"
+                                aria-valuenow="50"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                              >
                                 50%
                               </div>
                             </div>
                             <div class="progress">
                               <span>4 star</span>
-                              <div class="progress-bar" role="progressbar" style="width: 25%" aria-valuenow="25"
-                                aria-valuemin="0" aria-valuemax="100">
+                              <div
+                                class="progress-bar"
+                                role="progressbar"
+                                style="width: 25%"
+                                aria-valuenow="25"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                              >
                                 25%
                               </div>
                             </div>
                             <div class="progress">
                               <span>3 star</span>
-                              <div class="progress-bar" role="progressbar" style="width: 45%" aria-valuenow="45"
-                                aria-valuemin="0" aria-valuemax="100">
+                              <div
+                                class="progress-bar"
+                                role="progressbar"
+                                style="width: 45%"
+                                aria-valuenow="45"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                              >
                                 45%
                               </div>
                             </div>
                             <div class="progress">
                               <span>2 star</span>
-                              <div class="progress-bar" role="progressbar" style="width: 65%" aria-valuenow="65"
-                                aria-valuemin="0" aria-valuemax="100">
+                              <div
+                                class="progress-bar"
+                                role="progressbar"
+                                style="width: 65%"
+                                aria-valuenow="65"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                              >
                                 65%
                               </div>
                             </div>
                             <div class="progress mb-30">
                               <span>1 star</span>
-                              <div class="progress-bar" role="progressbar" style="width: 85%" aria-valuenow="85"
-                                aria-valuemin="0" aria-valuemax="100">
+                              <div
+                                class="progress-bar"
+                                role="progressbar"
+                                style="width: 85%"
+                                aria-valuenow="85"
+                                aria-valuemin="0"
+                                aria-valuemax="100"
+                              >
                                 85%
                               </div>
                             </div>
-                            <a href="#" class="font-xs text-muted">How are ratings calculated?</a>
+                            <a href="#" class="font-xs text-muted"
+                              >How are ratings calculated?</a
+                            >
                           </div>
                         </div>
                       </div>
@@ -778,34 +968,63 @@
                         <div class="product-rate d-inline-block mb-30"></div>
                         <div class="row">
                           <div class="col-lg-8 col-md-12">
-                            <form class="form-contact comment_form" action="#" id="commentForm">
+                            <form
+                              class="form-contact comment_form"
+                              action="#"
+                              id="commentForm"
+                            >
                               <div class="row">
                                 <div class="col-12">
                                   <div class="form-group">
-                                    <textarea class="form-control w-100" name="comment" id="comment" cols="30" rows="9"
-                                      placeholder="Write Comment"></textarea>
+                                    <textarea
+                                      class="form-control w-100"
+                                      name="comment"
+                                      id="comment"
+                                      cols="30"
+                                      rows="9"
+                                      placeholder="Write Comment"
+                                    ></textarea>
                                   </div>
                                 </div>
                                 <div class="col-sm-6">
                                   <div class="form-group">
-                                    <input class="form-control" name="name" id="name" type="text" placeholder="Name" />
+                                    <input
+                                      class="form-control"
+                                      name="name"
+                                      id="name"
+                                      type="text"
+                                      placeholder="Name"
+                                    />
                                   </div>
                                 </div>
                                 <div class="col-sm-6">
                                   <div class="form-group">
-                                    <input class="form-control" name="email" id="email" type="email"
-                                      placeholder="Email" />
+                                    <input
+                                      class="form-control"
+                                      name="email"
+                                      id="email"
+                                      type="email"
+                                      placeholder="Email"
+                                    />
                                   </div>
                                 </div>
                                 <div class="col-12">
                                   <div class="form-group">
-                                    <input class="form-control" name="website" id="website" type="text"
-                                      placeholder="Website" />
+                                    <input
+                                      class="form-control"
+                                      name="website"
+                                      id="website"
+                                      type="text"
+                                      placeholder="Website"
+                                    />
                                   </div>
                                 </div>
                               </div>
                               <div class="form-group">
-                                <button type="submit" class="button button-contactForm">
+                                <button
+                                  type="submit"
+                                  class="button button-contactForm"
+                                >
                                   Submit Review
                                 </button>
                               </div>
@@ -828,25 +1047,52 @@
                         <div class="product-img-action-wrap">
                           <div class="product-img product-img-zoom">
                             <a href="shop-product-right.html" tabindex="0">
-                              <img class="default-img" src="../assets/imgs/shop/product-2-1.jpg" alt="" />
-                              <img class="hover-img" src="../assets/imgs/shop/product-2-2.jpg" alt="" />
+                              <img
+                                class="default-img"
+                                src="../assets/imgs/shop/product-2-1.jpg"
+                                alt=""
+                              />
+                              <img
+                                class="hover-img"
+                                src="../assets/imgs/shop/product-2-2.jpg"
+                                alt=""
+                              />
                             </a>
                           </div>
                           <div class="product-action-1">
-                            <a aria-label="Quick view" class="action-btn small hover-up" data-bs-toggle="modal"
-                              data-bs-target="#quickViewModal"><i class="fi-rs-search"></i></a>
-                            <a aria-label="Add To Wishlist" class="action-btn small hover-up" href="shop-wishlist.html"
-                              tabindex="0"><i class="fi-rs-heart"></i></a>
-                            <a aria-label="Compare" class="action-btn small hover-up" href="shop-compare.html"
-                              tabindex="0"><i class="fi-rs-shuffle"></i></a>
+                            <a
+                              aria-label="Quick view"
+                              class="action-btn small hover-up"
+                              data-bs-toggle="modal"
+                              data-bs-target="#quickViewModal"
+                              ><i class="fi-rs-search"></i
+                            ></a>
+                            <a
+                              aria-label="Add To Wishlist"
+                              class="action-btn small hover-up"
+                              href="shop-wishlist.html"
+                              tabindex="0"
+                              ><i class="fi-rs-heart"></i
+                            ></a>
+                            <a
+                              aria-label="Compare"
+                              class="action-btn small hover-up"
+                              href="shop-compare.html"
+                              tabindex="0"
+                              ><i class="fi-rs-shuffle"></i
+                            ></a>
                           </div>
-                          <div class="product-badges product-badges-position product-badges-mrg">
+                          <div
+                            class="product-badges product-badges-position product-badges-mrg"
+                          >
                             <span class="hot">Hot</span>
                           </div>
                         </div>
                         <div class="product-content-wrap">
                           <h2>
-                            <a href="shop-product-right.html" tabindex="0">Ulstra Bass Headphone</a>
+                            <a href="shop-product-right.html" tabindex="0"
+                              >Ulstra Bass Headphone</a
+                            >
                           </h2>
                           <div class="rating-result" title="90%">
                             <span> </span>
@@ -863,25 +1109,52 @@
                         <div class="product-img-action-wrap">
                           <div class="product-img product-img-zoom">
                             <a href="shop-product-right.html" tabindex="0">
-                              <img class="default-img" src="../assets/imgs/shop/product-3-1.jpg" alt="" />
-                              <img class="hover-img" src="../assets/imgs/shop/product-4-2.jpg" alt="" />
+                              <img
+                                class="default-img"
+                                src="../assets/imgs/shop/product-3-1.jpg"
+                                alt=""
+                              />
+                              <img
+                                class="hover-img"
+                                src="../assets/imgs/shop/product-4-2.jpg"
+                                alt=""
+                              />
                             </a>
                           </div>
                           <div class="product-action-1">
-                            <a aria-label="Quick view" class="action-btn small hover-up" data-bs-toggle="modal"
-                              data-bs-target="#quickViewModal"><i class="fi-rs-search"></i></a>
-                            <a aria-label="Add To Wishlist" class="action-btn small hover-up" href="shop-wishlist.html"
-                              tabindex="0"><i class="fi-rs-heart"></i></a>
-                            <a aria-label="Compare" class="action-btn small hover-up" href="shop-compare.html"
-                              tabindex="0"><i class="fi-rs-shuffle"></i></a>
+                            <a
+                              aria-label="Quick view"
+                              class="action-btn small hover-up"
+                              data-bs-toggle="modal"
+                              data-bs-target="#quickViewModal"
+                              ><i class="fi-rs-search"></i
+                            ></a>
+                            <a
+                              aria-label="Add To Wishlist"
+                              class="action-btn small hover-up"
+                              href="shop-wishlist.html"
+                              tabindex="0"
+                              ><i class="fi-rs-heart"></i
+                            ></a>
+                            <a
+                              aria-label="Compare"
+                              class="action-btn small hover-up"
+                              href="shop-compare.html"
+                              tabindex="0"
+                              ><i class="fi-rs-shuffle"></i
+                            ></a>
                           </div>
-                          <div class="product-badges product-badges-position product-badges-mrg">
+                          <div
+                            class="product-badges product-badges-position product-badges-mrg"
+                          >
                             <span class="sale">-12%</span>
                           </div>
                         </div>
                         <div class="product-content-wrap">
                           <h2>
-                            <a href="shop-product-right.html" tabindex="0">Smart Bluetooth Speaker</a>
+                            <a href="shop-product-right.html" tabindex="0"
+                              >Smart Bluetooth Speaker</a
+                            >
                           </h2>
                           <div class="rating-result" title="90%">
                             <span> </span>
@@ -898,25 +1171,52 @@
                         <div class="product-img-action-wrap">
                           <div class="product-img product-img-zoom">
                             <a href="shop-product-right.html" tabindex="0">
-                              <img class="default-img" src="../assets/imgs/shop/product-4-1.jpg" alt="" />
-                              <img class="hover-img" src="../assets/imgs/shop/product-4-2.jpg" alt="" />
+                              <img
+                                class="default-img"
+                                src="../assets/imgs/shop/product-4-1.jpg"
+                                alt=""
+                              />
+                              <img
+                                class="hover-img"
+                                src="../assets/imgs/shop/product-4-2.jpg"
+                                alt=""
+                              />
                             </a>
                           </div>
                           <div class="product-action-1">
-                            <a aria-label="Quick view" class="action-btn small hover-up" data-bs-toggle="modal"
-                              data-bs-target="#quickViewModal"><i class="fi-rs-search"></i></a>
-                            <a aria-label="Add To Wishlist" class="action-btn small hover-up" href="shop-wishlist.html"
-                              tabindex="0"><i class="fi-rs-heart"></i></a>
-                            <a aria-label="Compare" class="action-btn small hover-up" href="shop-compare.html"
-                              tabindex="0"><i class="fi-rs-shuffle"></i></a>
+                            <a
+                              aria-label="Quick view"
+                              class="action-btn small hover-up"
+                              data-bs-toggle="modal"
+                              data-bs-target="#quickViewModal"
+                              ><i class="fi-rs-search"></i
+                            ></a>
+                            <a
+                              aria-label="Add To Wishlist"
+                              class="action-btn small hover-up"
+                              href="shop-wishlist.html"
+                              tabindex="0"
+                              ><i class="fi-rs-heart"></i
+                            ></a>
+                            <a
+                              aria-label="Compare"
+                              class="action-btn small hover-up"
+                              href="shop-compare.html"
+                              tabindex="0"
+                              ><i class="fi-rs-shuffle"></i
+                            ></a>
                           </div>
-                          <div class="product-badges product-badges-position product-badges-mrg">
+                          <div
+                            class="product-badges product-badges-position product-badges-mrg"
+                          >
                             <span class="new">New</span>
                           </div>
                         </div>
                         <div class="product-content-wrap">
                           <h2>
-                            <a href="shop-product-right.html" tabindex="0">HomeSpeak 12UEA Goole</a>
+                            <a href="shop-product-right.html" tabindex="0"
+                              >HomeSpeak 12UEA Goole</a
+                            >
                           </h2>
                           <div class="rating-result" title="90%">
                             <span> </span>
@@ -928,30 +1228,59 @@
                         </div>
                       </div>
                     </div>
-                    <div class="col-lg-3 col-md-4 col-12 col-sm-6 d-lg-block d-none">
+                    <div
+                      class="col-lg-3 col-md-4 col-12 col-sm-6 d-lg-block d-none"
+                    >
                       <div class="product-cart-wrap hover-up mb-0">
                         <div class="product-img-action-wrap">
                           <div class="product-img product-img-zoom">
                             <a href="shop-product-right.html" tabindex="0">
-                              <img class="default-img" src="../assets/imgs/shop/product-5-1.jpg" alt="" />
-                              <img class="hover-img" src="../assets/imgs/shop/product-3-2.jpg" alt="" />
+                              <img
+                                class="default-img"
+                                src="../assets/imgs/shop/product-5-1.jpg"
+                                alt=""
+                              />
+                              <img
+                                class="hover-img"
+                                src="../assets/imgs/shop/product-3-2.jpg"
+                                alt=""
+                              />
                             </a>
                           </div>
                           <div class="product-action-1">
-                            <a aria-label="Quick view" class="action-btn small hover-up" data-bs-toggle="modal"
-                              data-bs-target="#quickViewModal"><i class="fi-rs-search"></i></a>
-                            <a aria-label="Add To Wishlist" class="action-btn small hover-up" href="shop-wishlist.html"
-                              tabindex="0"><i class="fi-rs-heart"></i></a>
-                            <a aria-label="Compare" class="action-btn small hover-up" href="shop-compare.html"
-                              tabindex="0"><i class="fi-rs-shuffle"></i></a>
+                            <a
+                              aria-label="Quick view"
+                              class="action-btn small hover-up"
+                              data-bs-toggle="modal"
+                              data-bs-target="#quickViewModal"
+                              ><i class="fi-rs-search"></i
+                            ></a>
+                            <a
+                              aria-label="Add To Wishlist"
+                              class="action-btn small hover-up"
+                              href="shop-wishlist.html"
+                              tabindex="0"
+                              ><i class="fi-rs-heart"></i
+                            ></a>
+                            <a
+                              aria-label="Compare"
+                              class="action-btn small hover-up"
+                              href="shop-compare.html"
+                              tabindex="0"
+                              ><i class="fi-rs-shuffle"></i
+                            ></a>
                           </div>
-                          <div class="product-badges product-badges-position product-badges-mrg">
+                          <div
+                            class="product-badges product-badges-position product-badges-mrg"
+                          >
                             <span class="hot">Hot</span>
                           </div>
                         </div>
                         <div class="product-content-wrap">
                           <h2>
-                            <a href="shop-product-right.html" tabindex="0">Dadua Camera 4K 2022EF</a>
+                            <a href="shop-product-right.html" tabindex="0"
+                              >Dadua Camera 4K 2022EF</a
+                            >
                           </h2>
                           <div class="rating-result" title="90%">
                             <span> </span>
@@ -982,33 +1311,39 @@ import { defineComponent } from "vue";
 import { productStore } from "@/stores/product";
 import { mapActions, mapState, mapWritableState } from "pinia";
 import { RouterLink, RouterView } from "vue-router";
-// export default defineComponent({
-//   computed: {
-//     ...mapState(productStore, ["products"]),
-//     ...mapWritableState(productStore, ["one", "visible", "checked"]),
-//   },
-//   created() {
-//     this.fetchData();
-//   },
-//   methods: {
-//     ...mapActions(productStore, ["fetchData", "delete", "update", "create"]),
 
-//     checkId() {
-//       console.log("check id: " + this.$route.params.id);
-//     },
+// export default {
+//   data() {
+//     return {
+//       product: {},
+//     };
 //   },
-// });
-export default {
-  data() {
-    return {
-      product: {},
-    };
+//   mounted() {
+//     const id = this.$route.params.id;
+//     fetch(`https://fakestoreapi.com/products/${id}`)
+//       .then(response => response.json())
+//       .then(data => this.product = data);
+//   },
+// };
+export default defineComponent({
+  computed: {
+    ...mapState(productStore, ["products"]),
+    ...mapWritableState(productStore, ["one", "visible", "checked"]),
   },
   mounted() {
     const id = this.$route.params.id;
     fetch(`https://fakestoreapi.com/products/${id}`)
-      .then(response => response.json())
-      .then(data => this.product = data);
+      .then((response) => response.json())
+      .then((data) => (this.one = data));
   },
-};
+  methods: {
+    ...mapActions(productStore, [
+      "fetchData",
+      "getDetailProducts",
+      "delete",
+      "update",
+      "create",
+    ]),
+  },
+});
 </script>

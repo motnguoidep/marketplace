@@ -5944,6 +5944,5 @@ export default defineComponent({
     methods: {
         ...mapActions(productStore, ["fetchData", "getDetailProducts", "delete", "update", "create",]),
     }
-
 });
 </script>
