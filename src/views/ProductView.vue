@@ -1312,19 +1312,6 @@ import { productStore } from "@/stores/product";
 import { mapActions, mapState, mapWritableState } from "pinia";
 import { RouterLink, RouterView } from "vue-router";
 
-// export default {
-//   data() {
-//     return {
-//       product: {},
-//     };
-//   },
-//   mounted() {
-//     const id = this.$route.params.id;
-//     fetch(`https://fakestoreapi.com/products/${id}`)
-//       .then(response => response.json())
-//       .then(data => this.product = data);
-//   },
-// };
 export default defineComponent({
   computed: {
     ...mapState(productStore, ["products"]),
@@ -1346,4 +1333,17 @@ export default defineComponent({
     ]),
   },
 });
+// export default {
+//   data() {
+//     return {
+//       product: {},
+//     };
+//   },
+//   mounted() {
+//     const id = this.$route.params.id;
+//     fetch(`https://fakestoreapi.com/products/${id}`)
+//       .then(response => response.json())
+//       .then(data => this.product = data);
+//   },
+// };
 </script>

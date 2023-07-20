@@ -1330,6 +1330,9 @@
 <script lang="ts">
 import Header from "./Header.vue";
 import Footer from "./Footer.vue";
+import { productStore } from "@/stores/product";
+import { mapActions, mapState, mapWritableState } from "pinia";
+import { defineComponent } from "vue";
 export default defineComponent({
   computed: {
     ...mapState(productStore, ["products"]),
